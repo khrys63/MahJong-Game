@@ -148,7 +148,7 @@ namespace MahJong {
         }
 
         private void aProposToolStripMenuItem_Click(object sender, EventArgs e) {
-            System.Windows.Forms.MessageBox.Show("Mah-Jong par Christophe", "A Propos...", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            System.Windows.Forms.MessageBox.Show("Mah-Jong par Khrys63.\nhttps://github.com/khrys63/MahJong-Game", "A Propos...", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnJouer_Click(object sender, EventArgs e) {
