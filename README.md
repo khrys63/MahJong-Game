@@ -4,17 +4,17 @@ Voici un jeu de Mahjong traditionnel.
 Le but du jeu est simple, il faut faire des combinaisons avec 14 tuiles et être le premier à le faire.
 
 
-## Origine
+## Origine de ce code
 
 C'est un vieux code réalisé en 2007 et commité sur Codes-Sources et codé en .net.
 
-### Repo initial
+#### Repo initial
 
-[codes-sources](https://codes-sources.commentcamarche.net/source/43928-jeu-de-mahjong)
+Jeu de mahjong sur [codes-sources](https://codes-sources.commentcamarche.net/source/43928-jeu-de-mahjong).
 
-### Source
+#### Source
 
-Je m'étais inspiré du prog java de Tacs (sur [Tacs sur codes-sources](https://codes-sources.commentcamarche.net/source/43524-mahjong-le-vrai))
+Je m'étais inspiré du prog java de Tacs (sur [Tacs sur codes-sources](https://codes-sources.commentcamarche.net/source/43524-mahjong-le-vrai)).
 
 ## Fonctionnement simple
 
