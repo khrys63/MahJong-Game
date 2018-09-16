@@ -30,9 +30,9 @@ Les multiplicateurs appliqués sont :
 - x2 pung et kong de son vent, 
 - x8 jeux purs.
 
-![iTop location](screen/capture.jpg)
+![MahJong Game](screen/capture.jpg)
 
-
+[Download here](/bin/MahJong.exe)
 ## IA
 
 L'IA reste à améliorer dans une version future, pour l'instant elle défausse les tuiles aléatoirement sauf si elle en a plusieurs du même type.
