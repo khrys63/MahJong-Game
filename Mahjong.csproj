@@ -99,49 +99,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src/Defausse.cs" />
-    <Compile Include="src/frmOption.cs">
+    <Compile Include="Defausse.cs" />
+    <Compile Include="frmOption.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src/frmOption.Designer.cs">
-      <DependentUpon>src/frmOption.cs</DependentUpon>
+    <Compile Include="frmOption.Designer.cs">
+      <DependentUpon>frmOption.cs</DependentUpon>
     </Compile>
-    <Compile Include="src/IDefausse.cs" />
-    <Compile Include="src/IMahjong.cs" />
-    <Compile Include="src/JoueurView.cs" />
-    <Compile Include="src/AssemblyInfo.cs" />
-    <Compile Include="src/Constantes.cs" />
-    <Compile Include="src/frmPrinc.cs">
+    <Compile Include="IDefausse.cs" />
+    <Compile Include="IMahjong.cs" />
+    <Compile Include="JoueurView.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Constantes.cs" />
+    <Compile Include="frmPrinc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src/frmPrinc.Designer.cs">
-      <DependentUpon>src/frmPrinc.cs</DependentUpon>
+    <Compile Include="frmPrinc.Designer.cs">
+      <DependentUpon>frmPrinc.cs</DependentUpon>
     </Compile>
-    <Compile Include="src/Joueur.cs" />
-    <Compile Include="src/Mahjong.cs" />
-    <Compile Include="src/Options.cs" />
-    <Compile Include="src/RessourceManager.cs" />
-    <Compile Include="src/Program.cs" />
-    <Compile Include="src/resImages.Designer.cs">
+    <Compile Include="Joueur.cs" />
+    <Compile Include="Mahjong.cs" />
+    <Compile Include="Options.cs" />
+    <Compile Include="RessourceManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="resImages.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>src/resImages.resx</DependentUpon>
+      <DependentUpon>resImages.resx</DependentUpon>
     </Compile>
-    <Compile Include="src/Tuile.cs" />
+    <Compile Include="Tuile.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="src/frmOption.resx">
+    <EmbeddedResource Include="frmOption.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>src/frmOption.cs</DependentUpon>
+      <DependentUpon>frmOption.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="src/frmPrinc.resx">
+    <EmbeddedResource Include="frmPrinc.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>src/frmPrinc.cs</DependentUpon>
+      <DependentUpon>frmPrinc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="src/resImages.resx">
+    <EmbeddedResource Include="resImages.resx">
       <SubType>Designer</SubType>
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>src/resImages.Designer.cs</LastGenOutput>
+      <LastGenOutput>resImages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
