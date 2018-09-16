@@ -406,9 +406,9 @@ namespace MahJong {
             } else {
 
                 if (gagnant == 0) {
-                    System.Windows.Forms.MessageBox.Show("Bien jouer! Vous avez gagn� la partie", "Mahjong", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    System.Windows.Forms.MessageBox.Show("Bien jouer! Vous avez gagné la partie", "Mahjong", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 } else {
-                    System.Windows.Forms.MessageBox.Show("Dommage, c'est " + m_oLesJoueurs[gagnant].Nom + " qui a gagn� la partie", "Mahjong", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    System.Windows.Forms.MessageBox.Show("Dommage, c'est " + m_oLesJoueurs[gagnant].Nom + " qui a gagné la partie", "Mahjong", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 for (int i = 0; i < 4; i++) {
                     m_oRepresentationJoueur[i].AfficheJeuFinPartie();
@@ -499,7 +499,7 @@ namespace MahJong {
                 if (m_iIndexPioche < 144) {
                     temp2 = piocheTuiles(m_oLesJoueurs[m_iAQuiDeJouer], 1);
 
-                    /* d�claration des fleurs et saisons */
+                    /* déclaration des fleurs et saisons */
                     do {
                         temp = m_oLesJoueurs[m_iAQuiDeJouer].DeclareHonneur();
                         if (temp > 0 && m_iIndexPioche < 144) {
@@ -520,7 +520,7 @@ namespace MahJong {
                 if (m_iAQuiDeJouer == 0) {
                     /* c'est au joueur joue */
                     if (temp2 >= 0) {
-                        m_oRepresentationJoueur[0].PictureBoxMain[temp2].SetBounds(Constantes.X + 40 * temp2, Constantes.Y - 10, 40, 50); //d�calage vers le haut
+                        m_oRepresentationJoueur[0].PictureBoxMain[temp2].SetBounds(Constantes.X + 40 * temp2, Constantes.Y - 10, 40, 50); //décalage vers le haut
                         m_oLesJoueurs[0].TuileSelect = temp2; //mémorisation de la tuile
                     }
 
@@ -627,7 +627,7 @@ namespace MahJong {
                                 //qqun d'autre a un score plus grand que moi
                                 if (m_oLesJoueurs[i].Vent == Constantes.EST || m_oLesJoueurs[j].Vent == Constantes.EST) {
                                     // si je suis EST ou que l'aute est EST
-                                    scoreFinal[i] += 4 * (scoreInterm[i] - scoreInterm[j]); // je re�ois 4* la diff de nos score
+                                    scoreFinal[i] += 4 * (scoreInterm[i] - scoreInterm[j]); // je reçois 4* la diff de nos score
                                 } else {
                                     scoreFinal[i] += 2 * (scoreInterm[i] - scoreInterm[j]); // ou 2*
                                 }
