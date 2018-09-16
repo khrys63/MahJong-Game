@@ -45,7 +45,7 @@ namespace MahJong {
             get { return m_iVent; }
             set { m_iVent = value; }
         }
-        /// <summary>Num�ro du joueur</summary>
+        /// <summary>Numéro du joueur</summary>
         public int Numero {
             get { return m_iNumero; }
             set { m_iNumero = value; }

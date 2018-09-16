@@ -298,7 +298,7 @@ namespace MahJong {
         }
         #endregion
 
-        #region Impl�mentation de l'interface IDefausse
+        #region Implementation de l'interface IDefausse
         public void AfficherTuilesDefaussees() {
             lbl1b.Text = Defausse.getDefausse().nbJet(1, 'b').ToString();
             lbl2b.Text = Defausse.getDefausse().nbJet(2, 'b').ToString();

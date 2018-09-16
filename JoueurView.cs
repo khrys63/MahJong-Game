@@ -49,7 +49,7 @@ namespace MahJong {
         }
         #endregion
 
-        #region m�thodes
+        #region methodes
         public void Affiche() {
             Tri();
             AfficheJeu();
