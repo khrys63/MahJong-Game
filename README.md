@@ -32,7 +32,7 @@ Les multiplicateurs appliqués sont :
 
 ![MahJong Game](screen/capture.jpg)
 
-[Download here](/releases/tag/v1.0.0)
+[Download here](releases/tag/v1.0.0)
 ## IA
 
 L'IA reste à améliorer dans une version future, pour l'instant elle défausse les tuiles aléatoirement sauf si elle en a plusieurs du même type.
